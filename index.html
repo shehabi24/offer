@@ -8,21 +8,32 @@
         .image-container {
             text-align: center; /* Horizontally center the content */
         }
-
         .image-container img {
-            display: block; /* Ensure the image behaves as a block element */
-            margin: 0 auto; /* Center the image horizontally */
+            display: block; 
+            margin: 0 auto; 
         }
-        /* CSS to resize the image */
         img {
-            width: 500px;
-            height: 710.64px;  
+            width: 100%
+
         }
-        
+        @media only screen and (min-width: 600px) {
+          img {
+              width: 900px 
+          }
+        }
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        div {
+          width: 100px;
+          height: 100px;
+          background-color: white;
+        }
     </style>
 </head>
 <body>
     <img src="offer.jpg" alt="Calo offer">
-    
 </body>
 </html>
