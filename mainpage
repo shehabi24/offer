@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calo offer</title>
+    <style>
+        .image-container {
+            text-align: center; /* Horizontally center the content */
+        }
+
+        .image-container img {
+            display: block; /* Ensure the image behaves as a block element */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+        /* CSS to resize the image */
+        img {
+            width: 900px;
+            height: 1279.15px;
+        }
+    </style>
+</head>
+<body>
+    <img src="offer.jpg" alt="Calo offer" >
+</body>
+</html>
